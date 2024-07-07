@@ -1,0 +1,16 @@
+demobox:
+  js:
+    js/build/demoPlugin.js: { preprocess: false, minified: true }
+  dependencies:
+    - core/ckeditor5
+
+admin.demobox:
+  css:
+    theme:
+      css/demobox.admin.css: { }
+
+ai_plugin:
+  js:
+    js/build/ai_plugin.js: { preprocess: false, minified: true }
+  dependencies:
+    - core/ckeditor5

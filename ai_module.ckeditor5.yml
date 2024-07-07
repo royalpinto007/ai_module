@@ -1,0 +1,32 @@
+ai_module_demo_simplebox:
+  ckeditor5:
+    plugins:
+      - demoPlugin.SimpleBox
+
+  drupal:
+    label: Simple box demo
+    library: ai_module/demobox
+    admin_library: ai_module/admin.demobox
+    toolbar_items:
+      simpleBox:
+        label: Simple box demo
+    elements:
+      - <h2>
+      - <h2 class="simple-box-title">
+      - <div>
+      - <div class="simple-box-description">
+      - <section>
+      - <section class="simple-box">
+
+ai_module_ai_plugin:
+  ckeditor5:
+    plugins:
+      - aiPlugin.AIPlugin
+
+  drupal:
+    label: AI Content Generator
+    library: ai_module/ai_plugin
+    toolbar_items:
+      aiPlugin:
+        label: AI Content Generator
+    elements: false

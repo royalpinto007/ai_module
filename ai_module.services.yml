@@ -1,0 +1,4 @@
+services:
+  ai_module.transformers:
+    class: 'Codewithkyrian\Transformers\Pipelines'
+    factory: ['@service_container', 'get']

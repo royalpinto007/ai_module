@@ -1,0 +1,8 @@
+ai_module.generate:
+  path: '/ai-module/generate'
+  defaults:
+    _controller: '\Drupal\ai_module\Controller\AIContentController::generateContent'
+    _title: 'Generate AI Content'
+  requirements:
+    _permission: 'access content'
+  methods: ['POST']
